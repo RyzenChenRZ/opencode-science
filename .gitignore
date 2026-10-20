@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# The upstream file inventory, cached by scripts/sync-upstream.mjs. It is a
+# cache of a remote tree, not source: the script refetches it when it is
+# missing, and a stale copy in the repository would hide an upstream change.
+.skill-files.json
+
+# Workspace state written at runtime: the literature library, screening
+# records, downloaded documents, run logs, published artifacts, reviews.
+.opencode-science/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Editor and OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment overrides. The plugin reads credentials from the
+# environment or from OpenCode's own config; they never belong in the
+# repository.
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
