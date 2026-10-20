@@ -1,0 +1,37 @@
+{
+  "name": "opencode-science",
+  "version": "0.1.0",
+  "description": "Scientific research workbench capabilities for OpenCode V2: vendored skills, read-only data connectors, notebook execution against the user's own interpreter, and immutable artifact versions with provenance records.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src",
+    "vendor",
+    "LICENSE",
+    "NOTICE",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync-upstream.mjs",
+    "audit": "node --experimental-strip-types scripts/audit-skills.mjs",
+    "typecheck": "tsc --noEmit",
+    "check": "node --experimental-strip-types scripts/check-load.mjs",
+    "check:vendor": "node --experimental-strip-types scripts/check-vendor.mjs",
+    "install:plugin": "node scripts/install.mjs",
+    "verify": "npm run audit && npm run typecheck && npm run test && npm run check && npm run check:vendor && npm run install:plugin",
+    "test": "python scripts/test-python-effects.py && python scripts/test-r-effects.py && python scripts/test-pdf-extract.py && node --experimental-strip-types scripts/test-identifiers.mjs && node --experimental-strip-types scripts/test-literature.mjs && node --experimental-strip-types scripts/test-review.mjs && node --experimental-strip-types scripts/test-workflow.mjs"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.28"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
