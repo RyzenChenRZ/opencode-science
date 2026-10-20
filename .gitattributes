@@ -1,0 +1,32 @@
+# The vendored tree must stay byte-identical to the copies recorded in
+# upstream.lock.json. Line-ending conversion would change those bytes and
+# make the integrity check fail on a fresh checkout, so those files are
+# marked as not text: git stores and restores them exactly.
+vendor/** -text
+
+# Everything else is text and is normalised to LF in the repository, so a
+# checkout on any platform produces the same bytes.
+* text=auto eol=lf
+
+# The lock file and the skill inventory are compared byte for byte by
+# scripts/check-vendor.mjs.
+upstream.lock.json -text
+
+# Shell scripts must keep LF, or they fail on a Unix runner.
+*.sh text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.mjs text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Binary assets are never converted.
+*.png binary
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary

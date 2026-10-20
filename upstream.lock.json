@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "upstream": {
+    "owner": "aipoch",
+    "repo": "open-science",
+    "ref": "main",
+    "license": "Apache-2.0"
+  },
+  "commit": "2c78ca66e672d1bd76603cb8ecf9d6f0b32500c2",
+  "files": {
+    "packages/connector-builtins/src/catalog.ts": {
+      "sha256": "ee55395b54ac73c117f9c92294f842154ff55d00624785d4ce69466b5e9da4a9",
+      "bytes": 31578
+    },
+    "packages/specialists/src/builtin-registry.ts": {
+      "sha256": "74e530dda5aed7bac287a6dcec0762fa199d4fdd65e53d428b054a4f378dd71e",
+      "bytes": 3738
+    },
+    "resources/skills/alphafold2/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/alphafold2/SKILL.md": {
+      "sha256": "984cfa7956ac50d878e3714563af881f8430b2281f1a927887a5f18304b81cee",
+      "bytes": 5391
+    },
+    "resources/skills/boltz/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/boltz/SKILL.md": {
+      "sha256": "3971ac101972455d8c92fba4fb950da05d65f4781634bf6bd06d99976b711584",
+      "bytes": 5687
+    },
+    "resources/skills/borzoi/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/borzoi/SKILL.md": {
+      "sha256": "865e8a8c58420823bfb2dd4d25f09d7fe674dfe6ede2ab7acc91a8df3a2ca457",
+      "bytes": 3947
+    },
+    "resources/skills/chai1/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/chai1/SKILL.md": {
+      "sha256": "d51de643f87eea10a7aae76cc71c34e3309a6a71e96948c71abab33120a7cde5",
+      "bytes": 4926
+    },
+    "resources/skills/compute-env-setup/SKILL.md": {
+      "sha256": "c62770e0c3185eb22f729f8eb5ea7e48c68ebddb1426ef8717a7a5ca6d631cc7",
+      "bytes": 10262
+    },
+    "resources/skills/diffdock/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/diffdock/SKILL.md": {
+      "sha256": "43a40762af778709ce1c8e1abd834543a8a89368bb3e2c758792473c206e7e17",
+      "bytes": 4950
+    },
+    "resources/skills/diffdock/references/workflows.md": {
+      "sha256": "cbd7560976a2c0f2a09b27a158f73e503cc701c2165321f0d23ac1cee9af757d",
+      "bytes": 1984
+    },
+    "resources/skills/env-management/SKILL.md": {
+      "sha256": "9421043a9c3e6337146fbb161e26b0b49dbb6ace091bcc01f43d7456ef0e33eb",
+      "bytes": 6989
+    },
+    "resources/skills/esmfold2/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/esmfold2/SKILL.md": {
+      "sha256": "f5bdaff9ffdc2c0a4a66c1f4d7613f919ffeafa0da84e0a5ba9adb40d1191307",
+      "bytes": 10951
+    },
+    "resources/skills/esmfold2/references/design-hook.md": {
+      "sha256": "f100def8706fcadd5ffba599137b910ed7b2896b23e46473f81c414f5335f75a",
+      "bytes": 1452
+    },
+    "resources/skills/esmfold2/references/esmc.md": {
+      "sha256": "62ce8706e7493a537af64e1550c6203d36e2c29a36a46fc2d3afc1b87681abce",
+      "bytes": 3052
+    },
+    "resources/skills/evo2/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/evo2/SKILL.md": {
+      "sha256": "52cf901c5321b2feeaed231daa8374dd12b025bdd27efd2115a0abc6e709da81",
+      "bytes": 5446
+    },
+    "resources/skills/fair-esm2/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/fair-esm2/SKILL.md": {
+      "sha256": "b1cc3fb1a02f13ec983cca14772f2d8ab0746be39d3d94ea0c68eef73db0443a",
+      "bytes": 5997
+    },
+    "resources/skills/figure-composer/SKILL.md": {
+      "sha256": "48572edcdbd2bf04e4d84cb76e5e536340993b0d7e1bb595a671c724abdb43d4",
+      "bytes": 11645
+    },
+    "resources/skills/figure-composer/kernel.py": {
+      "sha256": "ea0aad9c600e21983e941cabfceca22369be03a04e45fa613625cbcc22eded38",
+      "bytes": 18083
+    },
+    "resources/skills/figure-composer/open-science.json": {
+      "sha256": "cbd47fd8e999395a2a5b29e63201499a5bbd7afeaad9eaf7135a12345b986a23",
+      "bytes": 494
+    },
+    "resources/skills/figure-style/SKILL.md": {
+      "sha256": "85817cda5f54d88956b7123eaea91efc1a09120d5971dc67375b6eabed4a761c",
+      "bytes": 20380
+    },
+    "resources/skills/figure-style/kernel.py": {
+      "sha256": "8020d409bfb60f0c8dfa43d0dfe7bb97f7458e1a3908fefbcb6e4551e0feae4e",
+      "bytes": 17958
+    },
+    "resources/skills/figure-style/open-science.json": {
+      "sha256": "5cbe94328b3d9d01d1e2e1eaf3ec10cc7c1437923b5a058d3c64dbfceea5047f",
+      "bytes": 493
+    },
+    "resources/skills/indication-dossier/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/indication-dossier/SKILL.md": {
+      "sha256": "43ad5ad355abb38201155d61a67fdd2dca7d9a5206ca545406858653af039ce1",
+      "bytes": 6550
+    },
+    "resources/skills/indication-dossier/references/00-research-standards.md": {
+      "sha256": "f4fad6faa98f43c20f80517be606bd03b4020f2bf4d03d5d717885b2341d685b",
+      "bytes": 3101
+    },
+    "resources/skills/indication-dossier/references/01-meta-initialization.md": {
+      "sha256": "4e2146e22f179ba472e378d5f045c2d03269accef73594506ac0c04aa34dcc9b",
+      "bytes": 1729
+    },
+    "resources/skills/indication-dossier/references/02-epidemiology-research.md": {
+      "sha256": "ee8fc544587a5059d5b7b2606fcc42a0c8130e203755109d222392426261ce8c",
+      "bytes": 2113
+    },
+    "resources/skills/indication-dossier/references/03-biology-soc-research.md": {
+      "sha256": "d2eb550857a59a5abfc308fe65a889ae233e0a5f925c97b2e395c970f56d9b95",
+      "bytes": 2373
+    },
+    "resources/skills/indication-dossier/references/04-regulatory-trials-research.md": {
+      "sha256": "057b5d40dcf24da89c02a50a0bada072b23e1edcd4b2af2d5e2f8c6ed7672980",
+      "bytes": 3159
+    },
+    "resources/skills/indication-dossier/references/05-synthesis.md": {
+      "sha256": "4a3591a250546e92d0b5bddaab6cfad4336295ca04a43fefc659feac6103cbfd",
+      "bytes": 5340
+    },
+    "resources/skills/indication-dossier/references/06-writing-style.md": {
+      "sha256": "c4282e80b9c418a67019061c01e4a50c5496a06e8d2c70e62a80ca2d43970617",
+      "bytes": 1746
+    },
+    "resources/skills/indication-dossier/references/waypoint-schemas.md": {
+      "sha256": "04f8632a9d2a431cd02296932a6facd6d4fa5dbc6b9036290fa701c39fe64574",
+      "bytes": 2954
+    },
+    "resources/skills/ligandmpnn/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/ligandmpnn/SKILL.md": {
+      "sha256": "57ec2d14fafdbb4b58d85b8db43d229ab65c5ef1dea4a486579c7c00d7284382",
+      "bytes": 6821
+    },
+    "resources/skills/literature-review/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/literature-review/SKILL.md": {
+      "sha256": "f8926cbc0b2628d1597f0185aabc38d2c71e5acc52c72b20f6a4173d940c7aed",
+      "bytes": 12649
+    },
+    "resources/skills/literature-review/kernel.py": {
+      "sha256": "c69051344fc0fb9a21466ad3ed502146aa9cd9251a0b9030674f0943ae48cb9e",
+      "bytes": 21813
+    },
+    "resources/skills/literature-review/kernel.test.ts": {
+      "sha256": "4795a92e35f54759d45c7d78121b277fc77a5dd5e0c02722a973ba6edeae8658",
+      "bytes": 685
+    },
+    "resources/skills/literature-review/test_kernel.py": {
+      "sha256": "c4bb266a4cc7304f6f198dbda630b7a62e495b830a503370478b6db8bc962bb5",
+      "bytes": 2893
+    },
+    "resources/skills/manifest.json": {
+      "sha256": "0250db9a59a7b75e5f9ecbab469f407def40aa3977c0f52f3e6856c94fa36723",
+      "bytes": 3918
+    },
+    "resources/skills/openfold3/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/openfold3/SKILL.md": {
+      "sha256": "5239e7c71cbd92bc35118b7f426318a656c505c97ab1657d018c8103d449b158",
+      "bytes": 10079
+    },
+    "resources/skills/paper-narrative/SKILL.md": {
+      "sha256": "634abc8ca44a71819f14d8c3d3ca73155bb061040f1af830cf30175f8057114f",
+      "bytes": 17616
+    },
+    "resources/skills/paper-narrative/kernel.py": {
+      "sha256": "868670ab1a487762633c84c848cfe8e16907c54fae48afd3384afb5bc615ab7c",
+      "bytes": 3423
+    },
+    "resources/skills/paper-narrative/open-science.json": {
+      "sha256": "186ba293aa86be662b1d80f17c772ecd97548d7ce1074dfa397a6c3ab47a3864",
+      "bytes": 301
+    },
+    "resources/skills/proteinmpnn/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/proteinmpnn/SKILL.md": {
+      "sha256": "fb284aced53d394b82411b022ab00ff1da07be2fd16da4d4d08d28d6e74540ba",
+      "bytes": 5258
+    },
+    "resources/skills/scgpt/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/scgpt/SKILL.md": {
+      "sha256": "a87b3b7f3990ca24e087feb462201129711dc6684788ff7b789a2874bff95282",
+      "bytes": 5961
+    },
+    "resources/skills/scvi-tools/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/scvi-tools/SKILL.md": {
+      "sha256": "27779ca65ae12363dc7e60d40320d2e9d19085c3f8cf7ba016c3a2e4b799bf96",
+      "bytes": 14567
+    },
+    "resources/skills/scvi-tools/kernel.py": {
+      "sha256": "90bd20df51dc5c8a246aa087cde56973dc356171a274bf6ebd0fab295e389fe0",
+      "bytes": 4535
+    },
+    "resources/skills/scvi-tools/test_kernel.py": {
+      "sha256": "38d0ca2fb05b7a0f0b48d19c6edddd119343a77d70c259713fa45b16b47b6f32",
+      "bytes": 5264
+    },
+    "resources/skills/solublempnn/.catalog_stamp": {
+      "sha256": "6b4f4a453e289bdd74fadc95afa2dfbb031cf6a976459b71501b55eed519814d",
+      "bytes": 13
+    },
+    "resources/skills/solublempnn/SKILL.md": {
+      "sha256": "c5c9b5cba2668bfafc54e899e5165a68e07a1425ab25667cab8c86807d3f6e0c",
+      "bytes": 4277
+    },
+    "resources/specialists/manifest.json": {
+      "sha256": "975ee145f815ecc8e125353913fcd126f6f31add2a900f340e8cd34549298ce2",
+      "bytes": 40
+    },
+    "resources/specialists/template/v1/README.txt": {
+      "sha256": "86fe3ef02ac5d3c4fec5b93cc46b3906e8cbe1e738497a86fdeca8bf104043cf",
+      "bytes": 10428
+    },
+    "src/main/skills/activation-policy.ts": {
+      "sha256": "1585e97529036427fa9cafc330fe0d8161097063d942c30fa95777ff179a0853",
+      "bytes": 446
+    }
+  }
+}
