@@ -32,6 +32,6 @@
     "@opencode/plugin": "2.0.28"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }
