@@ -29,7 +29,7 @@
     "test": "python scripts/test-python-effects.py && python scripts/test-r-effects.py && python scripts/test-pdf-extract.py && node --experimental-strip-types scripts/test-identifiers.mjs && node --experimental-strip-types scripts/test-literature.mjs && node --experimental-strip-types scripts/test-review.mjs && node --experimental-strip-types scripts/test-workflow.mjs"
   },
   "dependencies": {
-    "@opencode/plugin": "2.0.28"
+    "@opencode/plugin": "2.0.32"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
