@@ -63,5 +63,5 @@ First public release.
   export, and the specialist marketplace are not implemented.
 
 [upstream]: https://github.com/aipoch/open-science
-[Unreleased]: https://github.com/OWNER/opencode-science/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/OWNER/opencode-science/releases/tag/v0.1.0
+[Unreleased]: https://github.com/RyzenChenRZ/opencode-science/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/RyzenChenRZ/opencode-science/releases/tag/v0.1.0

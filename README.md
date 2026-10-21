@@ -144,7 +144,7 @@ mechanism and an authoring template, but its builtin registry manifest is empty.
 ## Install
 
 ```sh
-git clone https://github.com/OWNER/opencode-science.git
+git clone https://github.com/RyzenChenRZ/opencode-science.git
 cd opencode-science
 npm install
 npm run sync          # fetch vendored skills, pinned by upstream.lock.json

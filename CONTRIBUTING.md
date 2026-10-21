@@ -18,7 +18,7 @@ dependency (`@opencode/plugin`) and one dev dependency (TypeScript).
 ## Getting set up
 
 ```sh
-git clone https://github.com/<owner>/opencode-science.git
+git clone https://github.com/RyzenChenRZ/opencode-science.git
 cd opencode-science
 npm install
 npm run verify
